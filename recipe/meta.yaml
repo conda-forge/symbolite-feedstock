@@ -1,5 +1,5 @@
 {% set name = "symbolite" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/symbolite-{{ version }}.tar.gz
-  sha256: 4f295f7ea7f58234a1a537960fc6729cafaab2fecfb0677db2c92d5b4c0b02a9
+  sha256: 40fac5e23e7021ffb2d571e334e65c9a6cb9dbfd17af0408fb884007cce837a1
 
 build:
   noarch: python
