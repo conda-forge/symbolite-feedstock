@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "symbolite" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/symbolite-{{ version }}.tar.gz
-  sha256: b7a576eb61131feac9e74a9da6fae0f110beaa537667575b143f50eac424b7f4
+  sha256: 6baadaa9d5707baf54102f7d2076c307875b4f4ae2c760bbd38b555dafe98ef8
 
 build:
   noarch: python
