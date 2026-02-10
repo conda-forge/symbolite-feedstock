@@ -3,9 +3,9 @@ About symbolite-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/symbolite-feedstock/blob/main/LICENSE.txt)
 
+Home: https://github.com/dyscolab/symbolite
 
-
-Package license: 
+Package license: MIT
 
 Summary: A minimalistic symbolic package.
 
@@ -317,4 +317,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@hgrecco](https://github.com/hgrecco/)
+* [@maurosilber](https://github.com/maurosilber/)
 
