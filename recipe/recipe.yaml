@@ -1,13 +1,13 @@
 context:
-  version: "1.0.1"
+  version: "1.1.0"
 
 package:
   name: symbolite
   version: ${{ version }}
 
 source:
-- url: https://pypi.org/packages/source/s/symbolite/symbolite-${{ version }}.tar.gz
-  sha256: 2b109c6f8ca22055bd2dcdcb4fca732b959c506d5d4cd1187fd539147e4f33c4
+  - url: https://pypi.org/packages/source/s/symbolite/symbolite-${{ version }}.tar.gz
+    sha256: 13ae803bffd05cb67260d747ca69af04f57f421ca2d224cede67f94b3b3cd702
 
 build:
   script: ${{ PYTHON }} -m pip install .
@@ -16,18 +16,18 @@ build:
 
 requirements:
   host:
-  - python >=3.12
-  - uv-build
-  - pip
+    - python >=3.12
+    - uv-build
+    - pip
   run:
-  - python >=3.12
-  - typing_extensions >= 4.15
+    - python >=3.12
+    - typing_extensions >= 4.15
 
 tests:
-- python:
-    imports:
-    - symbolite
-    pip_check: true
+  - python:
+      imports:
+        - symbolite
+      pip_check: true
 
 about:
   homepage: https://github.com/dyscolab/symbolite
