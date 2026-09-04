@@ -1,5 +1,5 @@
 context:
-  version: "1.1.0"
+  version: "1.1.1"
 
 package:
   name: symbolite
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/s/symbolite/symbolite-${{ version }}.tar.gz
-    sha256: 13ae803bffd05cb67260d747ca69af04f57f421ca2d224cede67f94b3b3cd702
+    sha256: 1b56d4daea8bd31d06c857bcdf496435d6f67a634a1e547be787987b1a4c46de
 
 build:
   script: ${{ PYTHON }} -m pip install .
